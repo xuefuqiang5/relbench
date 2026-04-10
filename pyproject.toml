@@ -12,7 +12,7 @@ license = {file = "LICENSE"}
 classifiers = [
 	"License :: OSI Approved :: MIT License",
 ]
-requires-python=">=3.10"
+requires-python = ">=3.10,<3.12"
 keywords=[]
 dependencies=[
 	"pandas",
@@ -23,6 +23,7 @@ dependencies=[
 	"scikit-learn<=1.6.1",
 	"typing-extensions",
 	"datasets",
+	"ipykernel>=7.2.0",
 ]
 
 [project.optional-dependencies]
